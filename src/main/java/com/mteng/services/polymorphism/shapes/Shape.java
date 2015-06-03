@@ -1,4 +1,4 @@
-package com.mteng.polymorphism.shapes;
+package com.mteng.services.polymorphism.shapes;
 
 /**
  * Created by mteng on 6/1/2015.

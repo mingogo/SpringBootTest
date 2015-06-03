@@ -1,9 +1,9 @@
-package com.mteng.polymorphism;
+package com.mteng.services.polymorphism;
 
-import com.mteng.polymorphism.shapes.Circle;
-import com.mteng.polymorphism.shapes.HalfCircle;
-import com.mteng.polymorphism.shapes.Shape;
-import com.mteng.polymorphism.shapes.Square;
+import com.mteng.services.polymorphism.shapes.Circle;
+import com.mteng.services.polymorphism.shapes.HalfCircle;
+import com.mteng.services.polymorphism.shapes.Shape;
+import com.mteng.services.polymorphism.shapes.Square;
 
 import java.util.ArrayList;
 import java.util.Iterator;

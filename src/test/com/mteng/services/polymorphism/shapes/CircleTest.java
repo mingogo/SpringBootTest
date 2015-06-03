@@ -1,8 +1,6 @@
-package com.mteng.polymorphism.shapes;
+package com.mteng.services.polymorphism.shapes;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class CircleTest {
     Circle c = new Circle();

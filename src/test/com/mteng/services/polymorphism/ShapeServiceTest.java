@@ -1,4 +1,4 @@
-package com.mteng.polymorphism;
+package com.mteng.services.polymorphism;
 
 import org.junit.Test;
 
