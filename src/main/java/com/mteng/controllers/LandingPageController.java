@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class LandingPageController {
+
     @Autowired
     SampleService service;
 
@@ -21,5 +22,11 @@ public class LandingPageController {
     @ResponseBody
     String sample() {
         return service.produceString("This is a sample input.");
+    }
+
+    @RequestMapping("/name")
+    @ResponseBody
+    String name() {
+        return service.getName();
     }
 }
