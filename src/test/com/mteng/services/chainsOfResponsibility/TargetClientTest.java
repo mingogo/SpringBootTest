@@ -20,6 +20,12 @@ public class TargetClientTest {
     public void testClient() {
         Target t1 = new Target();
         t1.setName(TargetType.FRIENDLY);
+        Target t2 = new Target();
+        t2.setName(TargetType.HOSTILE);
+        Target t3 = new Target();
+        t3.setName(TargetType.UNKNOWN);
         client.TargetFound(t1);
+        client.TargetFound(t2);
+        client.TargetFound(t3);
     }
 }
