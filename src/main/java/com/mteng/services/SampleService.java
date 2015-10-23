@@ -11,14 +11,14 @@ public class SampleService {
     @Autowired
     private AppUtils util;
 
-    @Value("${mteng.sample.name}")
-    private String name;
+//    @Value("${mteng.sample.name}")
+//    private String name;
 
     public String produceString(String inputString) {
         return util.appendString(inputString);
     }
 
     public String getName() {
-        return util.appendString(name);
+        return util.appendString("mteng");
     }
 }
